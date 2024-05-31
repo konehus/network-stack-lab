@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/terassyi/gotcp/pkg/packet/ipv4"
-	"github.com/terassyi/gotcp/pkg/util"
+	"github.com/terassyi/network-stack-lab/pkg/packet/ipv4"
+	"github.com/terassyi/network-stack-lab/pkg/util"
 )
 
 // document http://www5d.biglobe.ne.jp/stssk/rfc/rfc793j.html

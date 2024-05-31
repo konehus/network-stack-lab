@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/google/subcommands"
-	"github.com/terassyi/gotcp/cmd"
+	"github.com/terassyi/network-stack-lab/cmd"
 )
 
 func main() {

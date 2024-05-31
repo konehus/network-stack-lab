@@ -3,11 +3,11 @@ package ethernet
 import (
 	"fmt"
 
-	"github.com/terassyi/gotcp/pkg/interfaces"
-	"github.com/terassyi/gotcp/pkg/packet/ethernet"
-	"github.com/terassyi/gotcp/pkg/packet/ipv4"
-	"github.com/terassyi/gotcp/pkg/proto"
-	"github.com/terassyi/gotcp/pkg/proto/arp"
+	"github.com/terassyi/network-stack-lab/pkg/interfaces"
+	"github.com/terassyi/network-stack-lab/pkg/packet/ethernet"
+	"github.com/terassyi/network-stack-lab/pkg/packet/ipv4"
+	"github.com/terassyi/network-stack-lab/pkg/proto"
+	"github.com/terassyi/network-stack-lab/pkg/proto/arp"
 )
 
 type Ethernet struct {

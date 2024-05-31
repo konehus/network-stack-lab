@@ -10,7 +10,7 @@ import (
 
 	"github.com/google/subcommands"
 	"github.com/sirupsen/logrus"
-	"github.com/terassyi/gotcp/pkg/gotcp"
+	"github.com/terassyi/network-stack-lab/pkg/gotcp"
 )
 
 type TcpClientCommand struct {

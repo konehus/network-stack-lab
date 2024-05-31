@@ -3,8 +3,8 @@ package tcp
 import (
 	"testing"
 
-	"github.com/terassyi/gotcp/pkg/packet/ipv4"
-	"github.com/terassyi/gotcp/pkg/proto/port"
+	"github.com/terassyi/network-stack-lab/pkg/packet/ipv4"
+	"github.com/terassyi/network-stack-lab/pkg/proto/port"
 )
 
 func TestActiveOpen(t *testing.T) {

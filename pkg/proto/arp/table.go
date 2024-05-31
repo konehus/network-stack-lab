@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/terassyi/gotcp/pkg/packet/ethernet"
-	"github.com/terassyi/gotcp/pkg/packet/ipv4"
+	"github.com/terassyi/network-stack-lab/pkg/packet/ethernet"
+	"github.com/terassyi/network-stack-lab/pkg/packet/ipv4"
 )
 
 type Table struct {

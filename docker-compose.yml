@@ -7,8 +7,8 @@ services:
     tty: true
     privileged: true
     volumes:
-      - ./:/usr/home/gotcp
-    working_dir: /usr/home/gotcp
+      - ./:/usr/home/network-stack-lab
+    working_dir: /usr/home/network-stack-lab
     networks:
       net:
         ipv4_address: 172.20.0.2
@@ -19,8 +19,8 @@ services:
     tty: true
     privileged: true
     volumes:
-      - ./:/usr/home/gotcp
-    working_dir: /usr/home/gotcp
+      - ./:/usr/home/network-stack-lab
+    working_dir: /usr/home/network-stack-lab
     networks:
       net:
         ipv4_address: 172.20.0.3

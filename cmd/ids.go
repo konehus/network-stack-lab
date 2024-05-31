@@ -6,8 +6,8 @@ import (
 	"fmt"
 
 	"github.com/google/subcommands"
-	"github.com/terassyi/gotcp/pkg/ids"
-	"github.com/terassyi/gotcp/pkg/interfaces"
+	"github.com/terassyi/network-stack-lab/pkg/ids"
+	"github.com/terassyi/network-stack-lab/pkg/interfaces"
 )
 
 type IdsCommand struct {

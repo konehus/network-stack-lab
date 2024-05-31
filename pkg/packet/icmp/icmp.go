@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/terassyi/gotcp/pkg/util"
+	"github.com/terassyi/network-stack-lab/pkg/util"
 )
 
 type Header struct {

@@ -6,13 +6,13 @@ import (
 	"fmt"
 
 	"github.com/google/subcommands"
-	"github.com/terassyi/gotcp/pkg/interfaces"
-	"github.com/terassyi/gotcp/pkg/packet/ethernet"
-	"github.com/terassyi/gotcp/pkg/proto/arp"
-	eth "github.com/terassyi/gotcp/pkg/proto/ethernet"
-	"github.com/terassyi/gotcp/pkg/proto/icmp"
-	"github.com/terassyi/gotcp/pkg/proto/ipv4"
-	"github.com/terassyi/gotcp/pkg/proto/tcp"
+	"github.com/terassyi/network-stack-lab/pkg/interfaces"
+	"github.com/terassyi/network-stack-lab/pkg/packet/ethernet"
+	"github.com/terassyi/network-stack-lab/pkg/proto/arp"
+	eth "github.com/terassyi/network-stack-lab/pkg/proto/ethernet"
+	"github.com/terassyi/network-stack-lab/pkg/proto/icmp"
+	"github.com/terassyi/network-stack-lab/pkg/proto/ipv4"
+	"github.com/terassyi/network-stack-lab/pkg/proto/tcp"
 )
 
 type DumpCommand struct {
@@ -28,7 +28,7 @@ func (d *DumpCommand) Synopsis() string {
 }
 
 func (d *DumpCommand) Usage() string {
-	return `gotcp dump -i <interface name>:
+	return `network-stack-lab dump -i <interface name>:
 	dump packets received by the interface`
 }
 

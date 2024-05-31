@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/terassyi/gotcp/pkg/interfaces"
+	"github.com/terassyi/network-stack-lab/pkg/interfaces"
 )
 
 func main() {

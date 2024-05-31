@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/terassyi/gotcp/pkg/util"
+	"github.com/terassyi/network-stack-lab/pkg/util"
 )
 
 /*

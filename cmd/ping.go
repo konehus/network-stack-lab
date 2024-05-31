@@ -7,7 +7,7 @@ import (
 
 	"github.com/google/subcommands"
 	"github.com/sirupsen/logrus"
-	"github.com/terassyi/gotcp/pkg/proto/icmp/ping"
+	"github.com/terassyi/network-stack-lab/pkg/proto/icmp/ping"
 )
 
 type PingCommand struct {

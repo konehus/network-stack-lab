@@ -1,9 +1,9 @@
 package icmp
 
 import (
-	"github.com/terassyi/gotcp/pkg/logger"
-	"github.com/terassyi/gotcp/pkg/packet/icmp"
-	"github.com/terassyi/gotcp/pkg/proto"
+	"github.com/terassyi/network-stack-lab/pkg/logger"
+	"github.com/terassyi/network-stack-lab/pkg/packet/icmp"
+	"github.com/terassyi/network-stack-lab/pkg/proto"
 )
 
 type Icmp struct {

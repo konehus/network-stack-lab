@@ -1,10 +1,10 @@
 package ids
 
 import (
-	"github.com/terassyi/gotcp/pkg/logger"
-	"github.com/terassyi/gotcp/pkg/packet/ethernet"
-	"github.com/terassyi/gotcp/pkg/packet/ipv4"
-	"github.com/terassyi/gotcp/pkg/packet/tcp"
+	"github.com/terassyi/network-stack-lab/pkg/logger"
+	"github.com/terassyi/network-stack-lab/pkg/packet/ethernet"
+	"github.com/terassyi/network-stack-lab/pkg/packet/ipv4"
+	"github.com/terassyi/network-stack-lab/pkg/packet/tcp"
 )
 
 type Ids struct {

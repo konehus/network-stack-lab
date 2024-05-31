@@ -5,13 +5,13 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/terassyi/gotcp/pkg/logger"
-	etherframe "github.com/terassyi/gotcp/pkg/packet/ethernet"
-	"github.com/terassyi/gotcp/pkg/packet/ipv4"
-	"github.com/terassyi/gotcp/pkg/proto"
-	"github.com/terassyi/gotcp/pkg/proto/ethernet"
-	"github.com/terassyi/gotcp/pkg/proto/icmp"
-	"github.com/terassyi/gotcp/pkg/proto/tcp"
+	"github.com/terassyi/network-stack-lab/pkg/logger"
+	etherframe "github.com/terassyi/network-stack-lab/pkg/packet/ethernet"
+	"github.com/terassyi/network-stack-lab/pkg/packet/ipv4"
+	"github.com/terassyi/network-stack-lab/pkg/proto"
+	"github.com/terassyi/network-stack-lab/pkg/proto/ethernet"
+	"github.com/terassyi/network-stack-lab/pkg/proto/icmp"
+	"github.com/terassyi/network-stack-lab/pkg/proto/tcp"
 )
 
 type Ipv4 struct {

@@ -3,12 +3,12 @@ package arp
 import (
 	"fmt"
 
-	"github.com/terassyi/gotcp/pkg/ioctl"
-	"github.com/terassyi/gotcp/pkg/logger"
-	"github.com/terassyi/gotcp/pkg/packet/arp"
-	"github.com/terassyi/gotcp/pkg/packet/ethernet"
-	"github.com/terassyi/gotcp/pkg/packet/ipv4"
-	"github.com/terassyi/gotcp/pkg/proto"
+	"github.com/terassyi/network-stack-lab/pkg/ioctl"
+	"github.com/terassyi/network-stack-lab/pkg/logger"
+	"github.com/terassyi/network-stack-lab/pkg/packet/arp"
+	"github.com/terassyi/network-stack-lab/pkg/packet/ethernet"
+	"github.com/terassyi/network-stack-lab/pkg/packet/ipv4"
+	"github.com/terassyi/network-stack-lab/pkg/proto"
 )
 
 // global variable

@@ -1,4 +1,4 @@
-module github.com/terassyi/gotcp
+module github.com/terassyi/network-stack-lab
 
 go 1.16
 

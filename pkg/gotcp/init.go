@@ -4,13 +4,13 @@ import (
 	"time"
 
 	"github.com/sirupsen/logrus"
-	"github.com/terassyi/gotcp/pkg/interfaces"
-	etherframe "github.com/terassyi/gotcp/pkg/packet/ethernet"
-	"github.com/terassyi/gotcp/pkg/proto/arp"
-	"github.com/terassyi/gotcp/pkg/proto/ethernet"
-	"github.com/terassyi/gotcp/pkg/proto/icmp"
-	"github.com/terassyi/gotcp/pkg/proto/ipv4"
-	"github.com/terassyi/gotcp/pkg/proto/tcp"
+	"github.com/terassyi/network-stack-lab/pkg/interfaces"
+	etherframe "github.com/terassyi/network-stack-lab/pkg/packet/ethernet"
+	"github.com/terassyi/network-stack-lab/pkg/proto/arp"
+	"github.com/terassyi/network-stack-lab/pkg/proto/ethernet"
+	"github.com/terassyi/network-stack-lab/pkg/proto/icmp"
+	"github.com/terassyi/network-stack-lab/pkg/proto/ipv4"
+	"github.com/terassyi/network-stack-lab/pkg/proto/tcp"
 )
 
 const (

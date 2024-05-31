@@ -3,11 +3,11 @@ package tcp
 import (
 	"sync"
 
-	"github.com/terassyi/gotcp/pkg/logger"
-	"github.com/terassyi/gotcp/pkg/packet/ipv4"
-	"github.com/terassyi/gotcp/pkg/packet/tcp"
-	"github.com/terassyi/gotcp/pkg/proto"
-	"github.com/terassyi/gotcp/pkg/proto/port"
+	"github.com/terassyi/network-stack-lab/pkg/logger"
+	"github.com/terassyi/network-stack-lab/pkg/packet/ipv4"
+	"github.com/terassyi/network-stack-lab/pkg/packet/tcp"
+	"github.com/terassyi/network-stack-lab/pkg/proto"
+	"github.com/terassyi/network-stack-lab/pkg/proto/port"
 )
 
 type Tcp struct {

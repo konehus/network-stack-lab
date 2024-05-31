@@ -5,15 +5,15 @@ import (
 	"os"
 	"time"
 
-	"github.com/terassyi/gotcp/pkg/interfaces"
-	"github.com/terassyi/gotcp/pkg/logger"
-	"github.com/terassyi/gotcp/pkg/packet/ethernet"
-	"github.com/terassyi/gotcp/pkg/packet/icmp"
-	ippacket "github.com/terassyi/gotcp/pkg/packet/ipv4"
-	"github.com/terassyi/gotcp/pkg/proto"
-	"github.com/terassyi/gotcp/pkg/proto/arp"
-	eth "github.com/terassyi/gotcp/pkg/proto/ethernet"
-	"github.com/terassyi/gotcp/pkg/proto/ipv4"
+	"github.com/terassyi/network-stack-lab/pkg/interfaces"
+	"github.com/terassyi/network-stack-lab/pkg/logger"
+	"github.com/terassyi/network-stack-lab/pkg/packet/ethernet"
+	"github.com/terassyi/network-stack-lab/pkg/packet/icmp"
+	ippacket "github.com/terassyi/network-stack-lab/pkg/packet/ipv4"
+	"github.com/terassyi/network-stack-lab/pkg/proto"
+	"github.com/terassyi/network-stack-lab/pkg/proto/arp"
+	eth "github.com/terassyi/network-stack-lab/pkg/proto/ethernet"
+	"github.com/terassyi/network-stack-lab/pkg/proto/ipv4"
 )
 
 type Ping struct {

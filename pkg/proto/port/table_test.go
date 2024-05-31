@@ -3,7 +3,7 @@ package port
 import (
 	"testing"
 
-	"github.com/terassyi/gotcp/pkg/packet/ipv4"
+	"github.com/terassyi/network-stack-lab/pkg/packet/ipv4"
 )
 
 func TestAvailablePort(t *testing.T) {
