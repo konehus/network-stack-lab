@@ -1,9 +1,9 @@
 # network-stack-lab
-Gotcp is user space tcp/ip protocol stack implementation by golang for learing purpose.
+network-stack-lab is user space tcp/ip protocol stack implementation by golang for learing purpose.
 This project is inspired by [microps](https://github.com/pandax381/microps)
 
 ## Features
-Gotcp work on Linux only. To run this, You have to be root.
+network-stack-lab work on Linux only. To run this, You have to be root.
 Supported protocol is berow.
 - Ethernet
 	- tuntap
@@ -14,7 +14,7 @@ Supported protocol is berow.
 - TCP
 
 ## Tutorial
-You can run Gotcp with virtual machines or docker containers.
+You can run network-stack-lab with virtual machines or docker containers.
 
 ### Environment
 #### Virtual machine
@@ -183,4 +183,4 @@ Server> close
 ```
 
 ## License
-Gotcp is under the MIT License: See [LICENSE](./LICENSE) file.
+network-stack-lab is under the MIT License: See [LICENSE](./LICENSE) file.
