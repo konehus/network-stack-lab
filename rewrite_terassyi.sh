@@ -16,6 +16,6 @@ if [ "$GIT_COMMITTER_EMAIL" = "iscale821@gmail.com" ] || \
   export GIT_COMMITTER_NAME="Henok Haile"
   export GIT_COMMITTER_EMAIL="konehus@gmail.com"
 fi
-' --tag-name-filter cat -- --branches --tags
+' --tag-name-filter cat -- --all
 
 echo "Rewritten terassyi commits to Henok Haile <konehus@gmail.com>"
